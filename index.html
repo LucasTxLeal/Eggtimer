@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egg Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <h1 class="title">Temporizador de ovo</h1>
+            <div class="heart"></div>
+        </div>
+        <div class="controls">
+            <div class="btn" id="pauseBtn">⏸</div>
+            <div class="btn" id="resetBtn">✖</div>
+        </div>
+        <div class="prompt">
+            O que você está cozinhando hoje?
+        </div>
+        <div class="egg-selector">
+            <div class="egg-option" data-time="180" data-type="soft">
+                <svg class="egg-img" viewBox="0 0 100 100">
+                    <ellipse cx="50" cy="50" rx="35" ry="45" fill="white" stroke="black" stroke-width="4"/>
+                    <circle cx="50" cy="50" r="15" fill="#FFEB3B"/>
+                    <circle cx="45" cy="45" r="3" fill="black"/>
+                    <path d="M 50 52 Q 55 57, 60 52" stroke="black" stroke-width="2" fill="none"/>
+                </svg>
+                <div class="egg-name">Ovo quente</div>
+            </div>
+            <div class="egg-option" data-time="300" data-type="jammy">
+                <svg class="egg-img" viewBox="0 0 100 100">
+                    <ellipse cx="50" cy="50" rx="35" ry="45" fill="white" stroke="black" stroke-width="4"/>
+                    <circle cx="50" cy="50" r="15" fill="#FFA000"/>
+                    <circle cx="45" cy="45" r="3" fill="black"/>
+                    <path d="M 50 52 Q 55 57, 60 52" stroke="black" stroke-width="2" fill="none"/>
+                </svg>
+                <div class="egg-name">Cremoso</div>
+            </div>
+            <div class="egg-option" data-time="540" data-type="hard">
+                <svg class="egg-img" viewBox="0 0 100 100">
+                    <ellipse cx="50" cy="50" rx="35" ry="45" fill="white" stroke="black" stroke-width="4"/>
+                    <circle cx="50" cy="50" r="15" fill="#FFF59D"/>
+                    <circle cx="45" cy="45" r="3" fill="black"/>
+                    <path d="M 50 52 Q 55 57, 60 52" stroke="black" stroke-width="2" fill="none"/>
+                </svg>
+                <div class="egg-name">Ovo cozido</div>
+            </div>
+            <div class="egg-option" data-time="90" data-type="fried">
+                <svg class="egg-img" viewBox="0 0 100 100">
+                    <ellipse cx="50" cy="70" rx="45" ry="15" fill="#F57F17" stroke="black" stroke-width="2"/>
+                    <ellipse cx="50" cy="65" rx="30" ry="20" fill="white" stroke="black" stroke-width="2"/>
+                    <circle cx="50" cy="65" r="15" fill="#FFEB3B"/>
+                </svg>
+                <div class="egg-name">Ovo frito</div>
+            </div>
+        </div>
+        
+        <div class="timer-display" id="timer">00:00</div>
+        
+        <div class="egg-animation" id="eggAnimation">
+            <svg class="egg-img" viewBox="0 0 100 100">
+                <ellipse cx="50" cy="50" rx="35" ry="45" fill="white" stroke="black" stroke-width="4"/>
+                <circle cx="50" cy="50" r="15" fill="#FFEB3B"/>
+                <circle cx="45" cy="45" r="3" fill="black"/>
+                <path d="M 50 52 Q 55 57, 60 52" stroke="black" stroke-width="2" fill="none"/>
+            </svg>
+        </div>
+        
+        <div class="done-message" id="doneMessage">Pronto!</div>
+        
+        <button class="start-btn" id="startBtn">Iniciar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
