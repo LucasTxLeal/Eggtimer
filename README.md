@@ -6,9 +6,9 @@ Um timer para cozinhar ovos com visual pixelizado e animações em estilo fofo.
 
 ```
 egg-timer/
-├── index.html    # Estrutura HTML do aplicativo
-├── styles.css    # Estilos e animações
-└── script.js     # Lógica de funcionamento do timer
+index.html    # Estrutura HTML do aplicativo
+styles.css    # Estilos e animações
+script.js     # Lógica de funcionamento do timer
 ```
 
 ## Características
