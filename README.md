@@ -57,3 +57,6 @@ Os estilos visuais podem ser personalizados no arquivo `styles.css`. As cores pr
 
 - Navegador web moderno com suporte a JavaScript e CSS3
 - Não são necessárias bibliotecas externas
+
+![image](https://github.com/user-attachments/assets/934ed7ce-6672-4fcf-9cd7-838caeb3c9b2)
+
