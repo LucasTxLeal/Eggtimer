@@ -1,4 +1,4 @@
-# Egg Timer Pixelizado
+# Egg Timer 
 
 Um timer para cozinhar ovos com visual pixelizado e animações em estilo fofo.
 
