@@ -13,7 +13,6 @@ script.js     # Lógica de funcionamento do timer
 
 ## Características
 
-- Design com estética fofa e colorida
 - Quatro tipos de ovos para escolher:
   - Ovo quente (3 minutos)
   - Cremoso (5 minutos)
